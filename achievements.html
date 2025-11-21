@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements – Tharun Kumar Reddy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Page Title */
+        h1 {
+            color: #7ecbff;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 12px #7ecbff, 0 0 25px #3fa4ff;
+            animation: fadeIn 1.5s ease;
+        }
+
+        /* Main Section Styling */
+        section {
+            max-width: 900px;
+            margin: 60px auto;
+            background: rgba(22, 32, 68, 0.75);
+            padding: 40px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(126, 203, 255, 0.3);
+            box-shadow: 0 0 20px rgba(126, 203, 255, 0.05);
+            animation: slideUp 1.2s ease;
+        }
+
+        /* List Items */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            color: #dce7ff;
+            padding: 12px 0;
+            line-height: 1.7;
+        }
+
+        ul li::before {
+            content: "▹ ";
+            color: #7ecbff;
+            font-weight: bold;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #141c35;
+            padding: 18px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(126, 203, 255, 0.1);
+        }
+
+        nav a {
+            color: #7ecbff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 8px #7ecbff;
+        }
+
+        /* Animations */
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(25px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Index</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="languages.html">Languages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Achievements Section -->
+    <section>
+        <h1>Achievements</h1>
+
+        <ul>
+            <li>Awarded On-the-Spot Recognition for developing an automated ML pipeline with measurable business impact.</li>
+            <li>Recognized for dedication, strong time management, and continuous skill development in AI and ML technologies.</li>
+            <li>Recognized for adaptability and proactive contribution to improving team efficiency and collaboration.</li>
+            <li>Acknowledged by clients for introducing simulation workflows that improved prediction reliability and enhanced decision-making efficiency.</li>
+        </ul>
+
+    </section>
+
+</body>
+</html>

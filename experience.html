@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience – Tharun Kumar Reddy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1 {
+            color: #7ecbff;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 12px #7ecbff, 0 0 25px #3fa4ff;
+            animation: fadeIn 1.5s ease;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 60px auto;
+            background: rgba(22, 32, 68, 0.75);
+            padding: 40px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(126, 203, 255, 0.3);
+            box-shadow: 0 0 20px rgba(126, 203, 255, 0.05);
+            animation: slideUp 1.2s ease;
+        }
+
+        .role {
+            color: #86d8ff;
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .company {
+            color: #b3dafe;
+            font-size: 18px;
+        }
+
+        ul {
+            margin-top: 20px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            color: #dce7ff;
+            padding: 8px 0;
+            line-height: 1.7;
+        }
+
+        ul li::before {
+            content: "▹ ";
+            color: #7ecbff;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #141c35;
+            padding: 18px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(126, 203, 255, 0.1);
+        }
+
+        nav a {
+            color: #7ecbff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 8px #7ecbff;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(25px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Index</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="languages.html">Languages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Experience Section -->
+    <section>
+        <h1>Experience</h1>
+
+        <div class="role">Data Scientist</div>
+        <div class="company">Tata Consultancy Services <span>(Oct 2023 – Present)</span></div>
+
+        <ul>
+            <li>Developed and deployed machine learning models for business use cases improving efficiency and accuracy.</li>
+            <li>Built and maintained end-to-end ML pipelines using Python, Pandas, Kubeflow, and Scikit-learn.</li>
+            <li>Implemented AI-driven workflows in Google Cloud Vertex AI including AutoML, custom models, and orchestration pipelines.</li>
+            <li>Utilized BigQuery, Cloud Storage, and Pub/Sub for scalable cloud-based data processing.</li>
+            <li>Developed REST APIs using FastAPI and Flask to serve machine learning models in production.</li>
+            <li>Created interactive dashboards using HTML, CSS, and JavaScript for visualization and user interaction.</li>
+            <li>Performed exploratory data analysis and visualizations using Matplotlib and Seaborn.</li>
+            <li>Built scalable Kubeflow pipelines automated using Cloud Scheduler and Pub/Sub triggers.</li>
+            <li>Optimized ML models and implemented drift detection for improved performance and monitoring.</li>
+            <li>Contributed to forecasting model POCs that enhanced operational productivity.</li>
+            <li>Built multi-agent AI systems enabling autonomous decision-making and conversational intelligence.</li>
+            <li>Collaborated cross-functionally in Agile environments ensuring timely and high-quality AI solution delivery.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
