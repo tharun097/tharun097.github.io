@@ -52,10 +52,23 @@
             font-weight: bold;
         }
 
-        .project-date {
-            color: #b3dafe;
+        .demo-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: rgba(126, 203, 255, 0.15);
+            border: 1px solid #7ecbff;
+            color: #7ecbff;
+            border-radius: 8px;
+            text-decoration: none;
             font-size: 16px;
-            margin-bottom: 15px;
+            transition: 0.3s ease;
+        }
+
+        .demo-btn:hover {
+            background: #7ecbff;
+            color: #0c152c;
+            box-shadow: 0 0 10px #7ecbff, 0 0 18px #2ea8ff;
         }
 
         ul {
@@ -131,15 +144,43 @@
     <section>
         <h1>Projects</h1>
 
-        <!-- Project Card -->
+        <!-- PROJECT 1 -->
         <div class="project-card">
-            <div class="project-title">Retrieval-Augmented Generation (RAG) Chatbot</div>
-            <div class="project-date">Aug 2023 – Nov 2023</div>
+            <div class="project-title">⚡ Intelligent AI Chatbot with LangGraph + Groq</div>
 
             <ul>
-                <li>Built a RAG-based chatbot for contextual Q&A using GROQ and Hugging Face APIs.</li>
-                <li>Enhanced information retrieval accuracy by 35% using real-time Tavily API integration.</li>
+                <li>Built a ChatGPT-like intelligent chatbot using <strong>Groq LLaMA 3.1</strong>, <strong>LangChain</strong>, and <strong>LangGraph</strong>.</li>
+                <li>Implemented full agent workflow with tools, memory, and streaming responses.</li>
+                <li>Integrated NASA, Satellite, REST API, and Sensor datasets with tool-augmented reasoning.</li>
+                <li>Enabled multi-session chat, memory saving, and session-aware document retrieval.</li>
             </ul>
+
+            <a class="demo-btn" href="https://sessions-maintainable-chatbot-c2gze2kxwinvnokw27yxcv.streamlit.app/" target="_blank">🚀 Live Demo</a>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <div class="project-title">📄 Document Question Answering – Groq LLaMA 3.1</div>
+
+            <ul>
+                <li>Developed a lightweight Document Q&A tool using <strong>Groq API</strong> for ultra-fast inference.</li>
+                <li>Users can upload PDF/TXT/Markdown files and ask questions about the content.</li>
+                <li>Included response streaming, secure file handling, and clean UI.</li>
+            </ul>
+
+            <a class="demo-btn" href="https://document-app-m17l4ttnwr.streamlit.app/" target="_blank">📄 Try Document QA</a>
+        </div>
+
+        <!-- PROJECT 3 – RAG Chatbot -->
+        <div class="project-card">
+            <div class="project-title">Retrieval-Augmented Generation (RAG) Chatbot</div>
+
+            <ul>
+                <li>Built a RAG-based chatbot using GROQ & HuggingFace APIs.</li>
+                <li>Improved retrieval accuracy by 35% using live Tavily API results.</li>
+            </ul>
+
+            <a class="demo-btn" href="https://github.com/tharun097/chatbot-with-services" target="_blank">📂 GitHub Repo</a>
         </div>
 
     </section>
