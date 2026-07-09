@@ -10,7 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
         (function () {
-            emailjs.init("U_Mpsv-Eaylg6xAhv");
+            // emailjs.init("U_Mpsv-Eaylg6xAhv");
+            emailjs.init("A22AabE7ECZALe1pa");
         })();
     </script>
 
@@ -220,7 +221,7 @@
                 message: document.getElementById("message").value
             };
 
-            emailjs.send("service_pcb076w", "template_9cnkmfn", templateParams)
+            emailjs.send("service_0h9x3lb", "template_9cnkmfn", templateParams)
                 .then(function () {
                     document.getElementById("statusMessage").innerHTML =
                         "<p class='success'>✔ Message sent successfully!</p>";
